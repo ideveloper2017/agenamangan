@@ -1,0 +1,34 @@
+<?php
+
+namespace App\Http\Requests;
+
+use Illuminate\Foundation\Http\FormRequest;
+
+class HomeRequest extends FormRequest
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     *
+     * @return bool
+     */
+    public function authorize()
+    {
+        return true;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array<string, mixed>
+     */
+    public function rules()
+    {
+        return [
+            'firstname' => ['string', 'max:255', 'required'],
+            'lastname' => ['string', 'max:255', 'required'],
+            'phone' => ['required', 'string'],
+            'email' => ['required', 'string'],
+            'text' => ['required', 'string']
+        ];
+    }
+}

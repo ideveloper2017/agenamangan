@@ -1,0 +1,11 @@
+<script src="{{ asset('front/assets/js/jquery-3.3.1.min.js') }}"></script>
+<script src="{{ asset('front/assets/js/popper.min.js') }}"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/sly.min.js"></script>
+<script src="assets/js/dragscroll.js"></script>
+<script src="assets/js/jquery.scrollbar.min.js"></script>
+<script src="assets/js/leaflet.js"></script>
+<script src="assets/js/leaflet.markercluster.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/map-leaflet.js"></script>
