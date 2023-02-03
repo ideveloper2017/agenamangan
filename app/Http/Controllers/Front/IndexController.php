@@ -10,6 +10,6 @@ class IndexController extends Controller
     public function index()
     {
 
-        return view('front.homepage.index');
+        return view('themes.default.index');
     }
 }

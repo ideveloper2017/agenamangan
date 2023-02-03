@@ -79,14 +79,14 @@ $(document).ready(function($) {
 
     function loadData(parameters) {
         $.ajax({
-            url: "assets/db/items.json",
+            url: "front/assets/db/items.json",
             dataType: "json",
             method: "GET",
             cache: false,
             success: function (results) {
 
                 if (typeof parameters !== "undefined" && parameters["formData"]) {
-                    //loadFormData(parameters);
+                   // loadFormData(parameters);
                 }
                 else {
                     allMarkersData = results;
@@ -181,7 +181,7 @@ $(document).ready(function($) {
                 "id": $(this._icon).find(".ts-marker").attr("data-ts-id"),
                 "parentMarker": marker,
                 "i": i,
-                "url": "assets/db/items.json"
+                "url": "/front/assets/db/items.json"
             });
         });
 
@@ -242,7 +242,7 @@ $(document).ready(function($) {
         infoboxHtml.innerHTML =
             '<div class="infobox-wrapper">' +
                 '<div class="ts-infobox" data-ts-id="' + loadedMarkersData[i]["id"] + '">' +
-                    '<img src="assets/img/infobox-close.svg" class="ts-close">' +
+                    '<img src="/front/assets/img/infobox-close.svg" class="ts-close">' +
 
                     ( ( loadedMarkersData[i]["ribbon"] !== undefined ) ? '<div class="ts-ribbon">' + loadedMarkersData[i]["ribbon"] + '</div>' : "" ) +
                     ( ( loadedMarkersData[i]["ribbon_corner"] !== undefined ) ? '<div class="ts-ribbon-corner"><span>' + loadedMarkersData[i]["ribbon_corner"] + '</span></div>' : "" ) +
