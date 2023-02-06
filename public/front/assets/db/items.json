@@ -144,18 +144,18 @@
   },
   {
     "id": 9,
-    "title": "White Scapes Complex",
-    "price": 168500,
+    "title": "Махдуми Аъзам мақбараси",
+    "price": "1991 йил",
     "marker_image": "assets/img/img-item-thumb-09.jpg",
     "url": "detail-02.html",
-    "address": "326 Mill Lane, Montura",
+    "address": "Косонсой тумани,М.Аъзам МФЙ, М. Аъзам кўчаси, 9-уй",
     "ribbon_corner": "New Listing",
     "area": 310,
     "bedrooms": 4,
     "bathrooms": 2,
     "rooms": 3,
-    "latitude": "40.682348340127156",
-    "longitude": "-73.584393651001"
+    "latitude": "41.252188",
+    "longitude": "71.539976"
   },
   {
     "id": 10,
