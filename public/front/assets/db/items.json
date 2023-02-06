@@ -20,7 +20,7 @@
   {
     "id": 2,
     "title": "Ўн бир Ахмад мақбараси",
-    "price": 125000,
+    "price": "2021 йилда қайта қурилди",
     "category": 1,
     "marker_image": "/assets/img/img-item-thumb-02.jpg",
     "url": "detail-01.html",
@@ -36,7 +36,7 @@
   {
     "id": 3,
     "title": "Султон Увайс Қароний мақбараси",
-    "price": 45900,
+    "price": "2019 йилда қайта қурилди",
     "category": 2,
     "marker_image": "/assets/img/img-item-thumb-03.jpg",
     "url": "detail-01.html",
@@ -52,7 +52,7 @@
   {
     "id": 4,
     "title": "Биби Наима она мақбараси",
-    "price": 860000,
+    "price": "2019 йилда қайта қурилди",
     "category": "",
     "marker_image": "/assets/img/img-item-thumb-04.jpg",
     "url": "detail-01.html",
