@@ -7,4 +7,4 @@
 <link rel="stylesheet" href="{{ asset('front/assets/css/jquery.scrollbar.css') }}">
 <link rel="stylesheet" href="{{ asset('front/assets/css/leaflet.css') }}">
 <link rel="stylesheet" href="{{ asset('front/assets/css/style.css') }}">
-<title>MyHouse - Advanced Real Estate HTML Template by ThemeStarz</title>
+<title>agenamangan.uz - Наманган вилояти бой меъморчилик тарихини ва маданий мероси</title>
