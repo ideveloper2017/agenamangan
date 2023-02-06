@@ -1,4 +1,4 @@
-@extends('backend.layouts.app')
+@extends('backend.layouts.limitless')
 @section('content')
     <div class="container-fluid">
         @if (session()->has('message'))
@@ -12,7 +12,7 @@
                     <div class="card-header">
                         <h5>Team Members </h5>
                     </div>
-                    <div class="title m-l-5"><a
+                    <div class="title m-l-5 m-1"><a
                             class="btn mr-1 mb-3 btn-primary btn-sm " href="{{route('admin.members.create')}}">Team Members
                             add</a>
                     </div>

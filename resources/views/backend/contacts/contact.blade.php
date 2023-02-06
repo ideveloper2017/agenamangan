@@ -1,4 +1,4 @@
-@extends('backend.layouts.app')
+@extends('backend.layouts.limitless')
 @section('content')
     <div class="container-fluid">
         <div class="page-header">
@@ -22,7 +22,7 @@
                     <div class="card-header">
                         <h5>Contact</h5>
                     </div>
-                    <div class="title m-l-5"><a
+                    <div class="title m-l-5 m-1"><a
                             class="btn mr-1 mb-3 btn-primary btn-sm " href="{{route('admin.contacts.create')}}">Contact
                             add</a>
                     </div>
@@ -48,7 +48,7 @@
                                         <td>{{$contact_a->phone}}</td>
                                         <td style="width: 50px; height: 50px; border-radius: 50%;"><img
                                                 style="width: 50px; height: 50px; border-radius: 50%;"
-                                                src="{{ asset('storage/images/'.$contact_a->image) }}"
+                                                src="{{ asset('uploads/'.$contact_a->image) }}"
                                                 alt="">
                                         </td>
                                         <td>

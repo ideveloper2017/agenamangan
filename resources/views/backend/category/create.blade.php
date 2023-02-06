@@ -1,10 +1,6 @@
-@extends('backend.layouts.app')
+@extends('backend.layouts.limitless')
 
 @section('title','Category')
-
-@push('css')
-
-@endpush
 
 @section('content')
 
@@ -15,7 +11,7 @@
                     <div class="col-sm-12">
                         <div style="padding: 30px" class="card ">
                             <div class="card-header pb-0">
-                                <h5> ADD NEW CATEGORY</h5>
+                                <h5> ADD  CATEGORY</h5>
                             </div>
                             <div class="card-body ">
                                 <form class="theme-form" method="post" action="{{ route('admin.category.store') }}"

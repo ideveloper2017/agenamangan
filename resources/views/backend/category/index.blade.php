@@ -1,4 +1,4 @@
-@extends('backend.layouts.app')
+@extends('backend.layouts.limitless')
 @section('title','Category')
 @push('css')
     <!-- JQuery DataTable Css -->
@@ -7,15 +7,15 @@
 @endpush
 @section('content')
     <div class="container-fluid m-10">
-        <div class="block-header">
+        <div class="block-header m-2">
             <a class="btn btn-primary waves-effect" href="{{ route('admin.category.create') }}">
-                <span>Add New Category</span>
+                <span>Add Category</span>
             </a>
         </div>
         <!-- Exportable Table -->
         <div class="row clearfix ">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-                <div class="card">
+                <div class="card p-2">
                     <div class="header">
                         <h2>
                             All Categories

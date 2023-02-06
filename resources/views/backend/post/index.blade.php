@@ -1,4 +1,4 @@
-@extends('backend.layouts.app')
+@extends('backend.layouts.limitless')
 @section('title','Post')
 @push('css')
 <!-- JQuery DataTable Css -->
@@ -8,7 +8,7 @@
 @section('content')
     <div class="container-fluid">
         <div class="block-header">
-            <a class="btn btn-primary waves-effect" href="{{ route('admin.post.create') }}">
+            <a class="btn btn-primary waves-effect m-1" href="{{ route('admin.post.create') }}">
 
                 <span>Add New Post</span>
             </a>
@@ -16,7 +16,7 @@
         <!-- Exportable Table -->
         <div class="row clearfix">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="card">
+                <div class="card p-2">
                     <div class="header">
 
                         <h2>

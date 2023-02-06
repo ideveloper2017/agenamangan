@@ -1,4 +1,4 @@
-@extends('backend.layouts.app')
+@extends('backend.layouts.limitless')
 @section('title', 'Page')
 @section('parentPageTitle', 'Control Panel')
 @section('content')
@@ -8,7 +8,7 @@
             @include('flash::message')
             <div class="card">
                 <div class="body m-10">
-                    <div class="pull-left">
+                    <div class="pull-left p-2">
                         <div class="btn-toolbar"><a href="{!! route('admin.page.create') !!}" class="btn btn-primary">
                                 <span class="glyphicon glyphicon-plus"></span>&nbsp;Add Page </a></div>
                     </div>

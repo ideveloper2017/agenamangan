@@ -1,4 +1,4 @@
-@extends('backend.layouts.app')
+@extends('backend.layouts.limitless')
 @section('content')
     {!! HTML::style('assets/bootstrap/css/bootstrap-tagsinput.css') !!}
     {!! HTML::style('jasny-bootstrap/css/jasny-bootstrap.min.css') !!}

@@ -1,4 +1,4 @@
-@extends('backend.layouts.app')
+@extends('backend.layouts.limitless')
 @section('title', 'Меню')
 @section('parentPageTitle', 'Меню список')
 @section('content')

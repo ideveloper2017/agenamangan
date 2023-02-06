@@ -1,4 +1,4 @@
-@extends('backend.layouts.app')
+@extends('backend.layouts.limitless')
 @section('content')
     @push('style')
         <link rel="stylesheet" href="{{ asset('assets/css/datatables.css') }}">

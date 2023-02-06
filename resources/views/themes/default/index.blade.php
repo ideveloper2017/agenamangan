@@ -632,14 +632,13 @@
                          data-ts-map-leaflet-attribution="&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> &copy; <a href='http://cartodb.com/attributions'>CartoDB</a>"
                          data-ts-map-zoom-position="bottomright"
                          data-ts-map-scroll-wheel="1"
-                         data-ts-map-zoom="13"
-                         data-ts-map-center-latitude="40.702411"
-                         data-ts-map-center-longitude="-73.556842"
-                         data-ts-locale="en-US"
+                         data-ts-map-zoom="9"
+                         data-ts-map-center-latitude="41.1145"
+                         data-ts-map-center-longitude="71.4468"
+                         data-ts-locale="uz-UZ"
                          data-ts-currency="USD"
                          data-ts-unit="m<sup>2</sup>"
-                         data-ts-display-additional-info="area_Area;bedrooms_Bedrooms;bathrooms_Bathrooms"
-                    >
+                         data-ts-display-additional-info="area_Area;bedrooms_Bedrooms;bathrooms_Bathrooms">
                     </div>
 
                 </div>
@@ -649,23 +648,16 @@
                 <div id="ts-results" class="ts-results__horizontal scrollbar-inner dragscroll">
                     <div class="ts-results-wrapper"></div>
                 </div>
-
             </div>
             <!--end full-screen-->
-
         </section>
-        <!--end ts-hero-->
-
-
-
+       <!--end ts-hero-->
         <footer id="ts-footer">
-
             <!--MAIN FOOTER CONTENT
             =============================================================================================================-->
             <section id="ts-footer-main">
                 <div class="container">
                     <div class="row">
-
                         <!--Brand and description-->
                         <div class="col-md-6">
                             <a href="#" class="brand">

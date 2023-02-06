@@ -1,10 +1,10 @@
-@extends('backend.layouts.app')
+@extends('backend.layouts.limitless')
 
 @section('title','Post')
 
 @push('css')
     <!-- Bootstrap Select Css -->
-    <link href="{{ asset('assets/backend/plugins/bootstrap-select/css/bootstrap-select.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/backend/plugins/bootstrap-select/css/bootstrap-select.css') }}" rel="stylesheet"/>
 @endpush
 
 @section('content')
@@ -17,7 +17,7 @@
                     <div style="padding: 30px" class="card">
                         <div class="header">
                             <h2>
-                                ADD NEW POST
+                               Create Posts
                             </h2>
                         </div>
                         <div class="body">
@@ -28,12 +28,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group">
-                                <label for="image">Featured Image</label>
-                                <input type="file" name="image">
-                            </div>
-
-                            <div class="form-group">
+                            <div class="form-group p-1">
                                 <input type="checkbox" id="publish" class="filled-in" name="status" value="1">
                                 <label for="publish">Publish</label>
                             </div>
@@ -42,10 +37,10 @@
                     </div>
                     <div class="row clearfix ">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="card">
+                            <div class="card p-2">
                                 <div class="header">
                                     <h2>
-                                        BODY
+                                 Body
                                     </h2>
                                 </div>
                                 <div class="body">
@@ -58,9 +53,19 @@
                             </div>
                         </div>
                     </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0">Upload image</h5>
+                        </div>
+
+                        <div class="card-body">
+
+                            <input type="file" class="file-input" name="image" multiple="multiple">
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                    <div class="card ">
+                    <div class="card p-2 ">
                         <div class="header">
                             <h2>
                                 Categories and Tags
@@ -70,7 +75,8 @@
                             <div class="form-group form-float">
                                 <div class="form-line {{ $errors->has('categories') ? 'focused error' : '' }}">
                                     <label for="category">Select Category</label>
-                                    <select name="categories[]" id="category" class="form-control show-tick" data-live-search="true" multiple>
+                                    <select name="categories[]" id="category" class="form-control show-tick"
+                                            data-live-search="true" multiple>
                                         @foreach($categories as $category)
                                             <option value="{{ $category->id }}">{{ $category->name }}</option>
                                         @endforeach
@@ -81,7 +87,8 @@
                             <div class="form-group form-float">
                                 <div class="form-line {{ $errors->has('tags') ? 'focused error' : '' }}">
                                     <label for="tag">Select Tags</label>
-                                    <select name="tags[]" id="tag" class="form-control show-tick" data-live-search="true" multiple>
+                                    <select name="tags[]" id="tag" class="form-control show-tick"
+                                            data-live-search="true" multiple>
                                         @foreach($tags as $tag)
                                             <option value="{{ $tag->id }}">{{ $tag->name }}</option>
                                         @endforeach
@@ -89,12 +96,12 @@
                                 </div>
                             </div>
 
-                            <a  class="btn btn-danger m-t-15 waves-effect" href="{{ route('admin.category.index') }}">BACK</a>
-                            <button type="submit" class="btn btn-primary m-t-15 waves-effect">SUBMIT</button>
+                            <a class="btn btn-danger m-t-15 waves-effect m-1"
+                               href="{{ route('admin.category.index') }}">BACK</a>
+                            <button type="submit" class="btn btn-primary m-t-15 waves-effect m-1">SUBMIT</button>
 
                         </div>
                     </div>
-
 
 
                 </div>

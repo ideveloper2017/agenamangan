@@ -1,4 +1,4 @@
-@extends('backend/layout/layout')
+@extends('backend.layouts.limitless')
 @section('content')
 
 <section class="content-header">

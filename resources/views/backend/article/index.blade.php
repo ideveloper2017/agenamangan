@@ -1,4 +1,4 @@
-@extends('backend.layouts.app')
+@extends('backend.layouts.limitless')
 @section('content')
     <script type="text/javascript">
         $(document).ready(function () {
@@ -46,9 +46,9 @@
 
             <div class="pull-left">
                 <div class="btn-toolbar">
-                    <a href="{!! langRoute('admin.article.create') !!}" class="btn btn-primary">
+                    <a href="{!! langRoute('admin.article.create') !!}" class="btn btn-primary m-1">
                         <span class="glyphicon glyphicon-plus"></span>&nbsp;Add Article </a>
-                    <a href="{!! langRoute('admin.category.create') !!}" class="btn btn-primary">
+                    <a href="{!! langRoute('admin.category.create') !!}" class="btn btn-primary m-1">
                         <span class="glyphicon glyphicon-plus"></span>&nbsp;Add Category </a>
                 </div>
             </div>

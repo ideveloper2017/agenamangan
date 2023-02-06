@@ -1,114 +1,142 @@
-<div class="page-main-header">
-    <div class="main-header-right row m-0">
-        <div class="main-header-left">
-            <div class="logo-wrapper"><a href="{{route('homes')}}"><img class="img-fluid" src="../assets/images/logo/logo.png" alt=""></a></div>
-            <div class="dark-logo-wrapper"><a href="index.html"><img class="img-fluid" src="../assets/images/logo/dark-logo.png" alt=""></a></div>
-            <div class="toggle-sidebar"><i class="status_toggle middle" data-feather="align-center" id="sidebar-toggle"></i></div>
+<div class="page-header page-header-light shadow">
+    <div class="page-header-content d-lg-flex">
+        <div class="d-flex">
+            <h4 class="page-title mb-0">
+                Home - <span class="fw-normal">Dashboard</span>
+            </h4>
+
+            <a href="#page_header" class="btn btn-light align-self-center collapsed d-lg-none border-transparent rounded-pill p-0 ms-auto" data-bs-toggle="collapse">
+                <i class="ph-caret-down collapsible-indicator ph-sm m-1"></i>
+            </a>
         </div>
-        <div class="left-menu-header col">
-            <ul>
-                <li>
-                    <form class="form-inline search-form">
-                        <div class="search-bg"><i class="fa fa-search"></i>
-                            <input class="form-control-plaintext" placeholder="Search here.....">
+
+        <div class="collapse d-lg-block my-lg-auto ms-lg-auto" id="page_header">
+            <div class="d-sm-flex align-items-center mb-3 mb-lg-0 ms-lg-3">
+                <div class="dropdown w-100 w-sm-auto">
+                    <a href="#" class="d-flex align-items-center text-body lh-1 dropdown-toggle py-sm-2" data-bs-toggle="dropdown" data-bs-display="static">
+                        <img src="../../../assets/images/brands/tesla.svg" class="w-32px h-32px me-2" alt="">
+                        <div class="me-auto me-lg-1">
+                            <div class="fs-sm text-muted mb-1">Customer</div>
+                            <div class="fw-semibold">Tesla Motors Inc</div>
                         </div>
-                    </form><span class="d-sm-none mobile-search search-bg"><i class="fa fa-search"></i></span>
-                </li>
-            </ul>
-        </div>
-        <div class="nav-right col pull-right right-menu p-0">
-            <ul class="nav-menus">
-                <li><a class="text-dark" href="#!" onclick="javascript:toggleFullScreen()"><i data-feather="maximize"></i></a></li>
-                <li class="onhover-dropdown">
-                    <div class="bookmark-box"><i data-feather="star"></i></div>
-                    <div class="bookmark-dropdown onhover-show-div">
-                        <div class="form-group mb-0">
-                            <div class="input-group">
-                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-search"></i></span></div>
-                                <input class="form-control" type="text" placeholder="Search for bookmark...">
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-lg-end w-100 w-lg-auto wmin-300 wmin-sm-350 pt-0">
+                        <div class="d-flex align-items-center p-3">
+                            <h6 class="fw-semibold mb-0">Customers</h6>
+                            <a href="#" class="ms-auto">
+                                View all
+                                <i class="ph-arrow-circle-right ms-1"></i>
+                            </a>
+                        </div>
+                        <a href="#" class="dropdown-item active py-2">
+                            <img src="../../../assets/images/brands/tesla.svg" class="w-32px h-32px me-2" alt="">
+                            <div>
+                                <div class="fw-semibold">Tesla Motors Inc</div>
+                                <div class="fs-sm text-muted">42 users</div>
                             </div>
-                        </div>
-                        <ul class="m-t-5">
-                            <li class="add-to-bookmark"><i class="bookmark-icon" data-feather="inbox"></i>Email<span class="pull-right"><i data-feather="star"></i></span></li>
-                            <li class="add-to-bookmark"><i class="bookmark-icon" data-feather="message-square"></i>Chat<span class="pull-right"><i data-feather="star"></i></span></li>
-                            <li class="add-to-bookmark"><i class="bookmark-icon" data-feather="command"></i>Feather Icon<span class="pull-right"><i data-feather="star"></i></span></li>
-                            <li class="add-to-bookmark"><i class="bookmark-icon" data-feather="airplay"></i>Widgets<span class="pull-right"><i data-feather="star">   </i></span></li>
-                        </ul>
+                        </a>
+                        <a href="#" class="dropdown-item py-2">
+                            <img src="../../../assets/images/brands/debijenkorf.svg" class="w-32px h-32px me-2" alt="">
+                            <div>
+                                <div class="fw-semibold">De Bijenkorf</div>
+                                <div class="fs-sm text-muted">49 users</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item py-2">
+                            <img src="../../../assets/images/brands/klm.svg" class="w-32px h-32px me-2" alt="">
+                            <div>
+                                <div class="fw-semibold">Royal Dutch Airlines</div>
+                                <div class="fs-sm text-muted">18 users</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item py-2">
+                            <img src="../../../assets/images/brands/shell.svg" class="w-32px h-32px me-2" alt="">
+                            <div>
+                                <div class="fw-semibold">Royal Dutch Shell</div>
+                                <div class="fs-sm text-muted">54 users</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item py-2">
+                            <img src="../../../assets/images/brands/bp.svg" class="w-32px h-32px me-2" alt="">
+                            <div>
+                                <div class="fw-semibold">BP plc</div>
+                                <div class="fs-sm text-muted">23 users</div>
+                            </div>
+                        </a>
                     </div>
-                </li>
-                <li class="onhover-dropdown">
-                    <div class="notification-box"><i data-feather="bell"></i><span class="dot-animated"></span></div>
-                    <ul class="notification-dropdown onhover-show-div">
-                        <li>
-                            <p class="f-w-700 mb-0">You have 3 Notifications<span class="pull-right badge badge-primary badge-pill">4</span></p>
-                        </li>
-                        <li class="noti-primary">
-                            <div class="media"><span class="notification-bg bg-light-primary"><i data-feather="activity"> </i></span>
-                                <div class="media-body">
-                                    <p>Delivery processing </p><span>10 minutes ago</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="noti-secondary">
-                            <div class="media"><span class="notification-bg bg-light-secondary"><i data-feather="check-circle"> </i></span>
-                                <div class="media-body">
-                                    <p>Order Complete</p><span>1 hour ago</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="noti-success">
-                            <div class="media"><span class="notification-bg bg-light-success"><i data-feather="file-text"> </i></span>
-                                <div class="media-body">
-                                    <p>Tickets Generated</p><span>3 hour ago</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="noti-danger">
-                            <div class="media"><span class="notification-bg bg-light-danger"><i data-feather="user-check"> </i></span>
-                                <div class="media-body">
-                                    <p>Delivery Complete</p><span>6 hour ago</span>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <div class="mode"><i class="fa fa-moon-o"></i></div>
-                </li>
-                <li class="onhover-dropdown"><i data-feather="message-square"></i>
-                    <ul class="chat-dropdown onhover-show-div">
-                        <li>
-                            <div class="media"><img class="img-fluid rounded-circle me-3" src="../assets/images/user/4.jpg" alt="">
-                                <div class="media-body"><span>Ain Chavez</span>
-                                    <p class="f-12 light-font">Lorem Ipsum is simply dummy...</p>
-                                </div>
-                                <p class="f-12">32 mins ago</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="media"><img class="img-fluid rounded-circle me-3" src="../assets/images/user/1.jpg" alt="">
-                                <div class="media-body"><span>Erica Hughes</span>
-                                    <p class="f-12 light-font">Lorem Ipsum is simply dummy...</p>
-                                </div>
-                                <p class="f-12">58 mins ago</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="media"><img class="img-fluid rounded-circle me-3" src="../assets/images/user/2.jpg" alt="">
-                                <div class="media-body"><span>Kori Thomas</span>
-                                    <p class="f-12 light-font">Lorem Ipsum is simply dummy...</p>
-                                </div>
-                                <p class="f-12">1 hr ago</p>
-                            </div>
-                        </li>
-                        <li class="text-center"> <a class="f-w-700" href="javascript:void(0)">See All     </a></li>
-                    </ul>
-                </li>
-                <li class="onhover-dropdown p-0">
-                    <button class="btn btn-primary-light" type="button"><a href="{{route('logout')}}"><i data-feather="log-out"></i>Log out</a></button>
-                </li>
-            </ul>
+                </div>
+
+                <div class="vr d-none d-sm-block flex-shrink-0 my-2 mx-3"></div>
+
+                <div class="d-inline-flex mt-3 mt-sm-0">
+                    <a href="#" class="status-indicator-container ms-1">
+                        <img src="../../../assets/images/demo/users/face24.jpg" class="w-32px h-32px rounded-pill" alt="">
+                        <span class="status-indicator bg-warning"></span>
+                    </a>
+                    <a href="#" class="status-indicator-container ms-1">
+                        <img src="../../../assets/images/demo/users/face1.jpg" class="w-32px h-32px rounded-pill" alt="">
+                        <span class="status-indicator bg-success"></span>
+                    </a>
+                    <a href="#" class="status-indicator-container ms-1">
+                        <img src="../../../assets/images/demo/users/face3.jpg" class="w-32px h-32px rounded-pill" alt="">
+                        <span class="status-indicator bg-danger"></span>
+                    </a>
+                    <a href="#" class="btn btn-outline-primary btn-icon w-32px h-32px rounded-pill ms-3">
+                        <i class="ph-plus"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="d-lg-none mobile-toggle pull-right w-auto"><i data-feather="more-horizontal"></i></div>
+    </div>
+
+    <div class="page-header-content d-lg-flex border-top">
+        <div class="d-flex">
+            <div class="breadcrumb py-2">
+                <a href="index.html" class="breadcrumb-item"><i class="ph-house"></i></a>
+                <a href="#" class="breadcrumb-item">Home</a>
+                <span class="breadcrumb-item active">Dashboard</span>
+            </div>
+
+            <a href="#breadcrumb_elements" class="btn btn-light align-self-center collapsed d-lg-none border-transparent rounded-pill p-0 ms-auto" data-bs-toggle="collapse">
+                <i class="ph-caret-down collapsible-indicator ph-sm m-1"></i>
+            </a>
+        </div>
+
+        <div class="collapse d-lg-block ms-lg-auto" id="breadcrumb_elements">
+            <div class="d-lg-flex mb-2 mb-lg-0">
+                <a href="#" class="d-flex align-items-center text-body py-2">
+                    <i class="ph-lifebuoy me-2"></i>
+                    Support
+                </a>
+
+                <div class="dropdown ms-lg-3">
+                    <a href="#" class="d-flex align-items-center text-body dropdown-toggle py-2" data-bs-toggle="dropdown">
+                        <i class="ph-gear me-2"></i>
+                        <span class="flex-1">Settings</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-end w-100 w-lg-auto">
+                        <a href="#" class="dropdown-item">
+                            <i class="ph-shield-warning me-2"></i>
+                            Account security
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <i class="ph-chart-bar me-2"></i>
+                            Analytics
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <i class="ph-lock-key me-2"></i>
+                            Privacy
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="ph-gear me-2"></i>
+                            All settings
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

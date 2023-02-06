@@ -1,4 +1,4 @@
-@extends('backend.layout.app')
+@extends('backend.layouts.limitless')
 @section('content')
     @push('head')
         <link rel="stylesheet" href="{{ asset('plugins/select2/dist/css/select2.min.css') }}">
