@@ -68,7 +68,7 @@
   {
     "id": 5,
     "title": "Мулла Бозор Охунд мақбараси",
-    "price": 435000,
+    "price": "XX аср",
     "category": 2,
     "status": 1,
     "marker_image": "/assets/img/img-item-thumb-05.jpg",
@@ -84,7 +84,7 @@
   {
     "id": 6,
     "title": "Наманган Хитой банки биноси",
-    "price": 85900,
+    "price": "1876 йил",
     "additional_info": "",
     "marker_image": "/assets/img/img-item-thumb-06.jpg",
     "url": "detail-01.html",
