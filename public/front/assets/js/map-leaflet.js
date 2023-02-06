@@ -1,24 +1,13 @@
 $(document).ready(function($) {
     "use strict";
-
     var mapId = "ts-map-hero";
-
-    //==================================================================================================================
-    // VARIABLES
-    // =================================================================================================================
-
     var newMarkers = [];
     var loadedMarkersData = [];
     var allMarkersData;
     var lastMarker;
     var map;
     var markerCluster;
-
     if ($("#" + mapId).length) {
-
-        //==============================================================================================================
-        // MAP SETTINGS
-        // =============================================================================================================
         var mapElement = $(document.getElementById(mapId));
         var mapDefaultZoom = parseInt(mapElement.attr("data-ts-map-zoom"), 10);
         var centerLatitude = mapElement.attr("data-ts-map-center-latitude");
@@ -47,9 +36,6 @@ $(document).ready(function($) {
             mapDefaultZoom = 14;
         }
 
-        //==================================================================================================================
-        // MAP ELEMENT
-        // =================================================================================================================
         map = L.map(mapId, {
             zoomControl: false,
             scrollWheelZoom: scrollWheel
@@ -69,11 +55,6 @@ $(document).ready(function($) {
         else if ( controls !== 0 ){
             L.control.zoom({position: "topright"}).addTo(map);
         }
-
-        //==================================================================================================================
-        // LOAD DATA
-        // =================================================================================================================
-
         loadData();
     }
 
@@ -101,9 +82,6 @@ $(document).ready(function($) {
         });
     }
 
-    //==================================================================================================================
-    // Create DIV with the markers data
-    // =================================================================================================================
     function createMarkers() {
 
         markerCluster = L.markerClusterGroup({
@@ -343,7 +321,7 @@ $(document).ready(function($) {
                                 '<aside>' +
                                 '<i class="fa fa-map-marker mr-2"></i>' + loadedMarkersData[id]["address"] + '</aside>' +
                             '</figure>' +
-                            additionalInfoHTML({display: displayAdditionalInfo, i: i}) +
+                        //    additionalInfoHTML({display: displayAdditionalInfo, i: i}) +
                         '</div>' +
                         '<div class="card-footer">' +
                             '<span class="ts-btn-arrow">Detail</span>' +
