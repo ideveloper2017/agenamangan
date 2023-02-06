@@ -626,7 +626,6 @@
                     =====================================================================================================-->
 
                     <!--end ts-form__map-search-->
-
                     <div id="ts-map-hero" class="h-100 ts-z-index__1"
                          data-ts-map-leaflet-provider="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png"
                          data-ts-map-leaflet-attribution="&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> &copy; <a href='http://cartodb.com/attributions'>CartoDB</a>"
