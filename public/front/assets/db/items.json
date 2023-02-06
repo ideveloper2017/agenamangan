@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Мулла Қирғиз мадрасаси",
-    "price": 83000,
+    "price": "1912 йил",
     "category": 1,
     "marker_image": "/assets/img/img-item-thumb-01.jpg",
     "url": "detail-01.html",
