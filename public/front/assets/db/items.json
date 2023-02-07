@@ -175,13 +175,13 @@
   },
   {
     "id": 11,
-    "title": "High Side Resort",
+    "title": "Шайхул Ислом масжиди",
     "price": 250200,
     "marker_image": "assets/img/img-item-thumb-11.jpg",
     "url": "detail-01.html",
-    "address": "558 Ellery Street, Bellamy",
-    "latitude": "40.666595078439435",
-    "longitude": "-73.69442859362795"
+    "address": "Косонсой тумани,  “Гулобод” МФЙ,  Қадрдон кўчаси",
+    "latitude": "41.246943",
+    "longitude": "71.546321"
   },
   {
     "id": 12,
