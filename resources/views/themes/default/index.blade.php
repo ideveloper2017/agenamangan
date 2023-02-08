@@ -23,7 +23,7 @@
                     </div>
 
                     <!--Right Side-->
-                    <div class="navbar-nav flex-row">
+                    <div class="navbar-nav flex-row" style="display:none">
 
                         <!--Search Input-->
                         <input type="text" class="form-control p-2 border-left bg-transparent w-auto" placeholder="Search">
