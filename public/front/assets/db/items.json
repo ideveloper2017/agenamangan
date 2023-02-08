@@ -385,15 +385,15 @@
 
   {
     "id": 26,
-    "title": "Industrial Building",
-    "price": 356000,
+    "title": "Хотира майдони",
+    "price": "2010 йил",
     "url": "detail-01.html",
-    "address": "Los Alamos, NM 87544",
+    "address": "Наманган шаҳар,“Оби ҳаёт” МФЙ, А.Темур кўчаси",
     "area": 740,
     "bedrooms": 3,
     "bathrooms": 2,
     "rooms": 12,
-    "latitude": "40.79667556663265",
-    "longitude": "-73.47985187243654"
+    "latitude": "41.001494",
+    "longitude": "71.662965"
   }
 ]
