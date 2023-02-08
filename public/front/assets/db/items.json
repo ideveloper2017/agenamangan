@@ -271,17 +271,17 @@
   },
   {
     "id": 18,
-    "title": "Centuria Luxury Villa",
-    "price": 48000,
+    "title": "Махзум Эшон масжиди",
+    "price": "1870 йил",
     "marker_image": "assets/img/img-item-thumb-18.jpg",
     "url": "detail-03.html",
-    "address": "745 Louis Place, Staples, California",
+    "address": "Наманган шаҳар, \"Марғилон\" МФЙ, Марғилон кўчаси",
     "area": 678,
     "bedrooms": 3,
     "bathrooms": 2,
     "rooms": 3,
-    "latitude": "40.70499526570847",
-    "longitude": "-73.53667178820803"
+    "latitude": "40.996178",
+    "longitude": "71.640145"
   },
   {
     "id": 19,
