@@ -23,20 +23,20 @@
                     </div>
 
                     <!--Right Side-->
-                    <div class="navbar-nav flex-row" style="display:none">
+                    <div class="navbar-nav flex-row">
 
                         <!--Search Input-->
                         <input type="text" class="form-control p-2 border-left bg-transparent w-auto" placeholder="Search">
 
                         <!--Currency Select-->
-                        <select class="custom-select bg-transparent ts-text-small border-left" id="currency" name="currency">
+                        <select class="custom-select bg-transparent ts-text-small border-left" id="currency" name="currency"  style="display:none">
                             <option value="1">GBP</option>
                             <option value="2">USD</option>
                             <option value="3">EUR</option>
                         </select>
 
                         <!--Language Select-->
-                        <select class="custom-select bg-transparent ts-text-small border-left border-right" id="language" name="language">
+                        <select class="custom-select bg-transparent ts-text-small border-left border-right" id="language" name="language"  style="display:none">
                             <option value="1">EN</option>
                             <option value="2">FR</option>
                             <option value="3">DE</option>
