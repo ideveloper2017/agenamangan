@@ -633,10 +633,10 @@
             <!--end full-screen-->
         </section>
        <!--end ts-hero-->
-        <footer id="ts-footer">
+        <footer id="ts-footer" style="display: none">
             <!--MAIN FOOTER CONTENT
             =============================================================================================================-->
-            <section id="ts-footer-main" style="display: none">
+            <section id="ts-footer-main" >
                 <div class="container">
                     <div class="row">
                         <!--Brand and description-->
