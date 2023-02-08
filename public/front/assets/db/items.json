@@ -286,7 +286,7 @@
   {
     "id": 19,
     "title": "1-сонли ўрта мактаб биноси",
-    "price": 249000,
+    "price": "XIX аср",
     "marker_image": "assets/img/img-item-thumb-19.jpg",
     "url": "detail-01.html",
     "address": "Наманган шахар Обихаёт МФЙ Сиргали кучаси 1-уй",
@@ -299,17 +299,17 @@
   },
   {
     "id": 20,
-    "title": "Forest Cabin",
-    "price": 119000,
+    "title": "Алишер Навоий номидаги театр",
+    "price": "1950 йил",
     "marker_image": "assets/img/img-item-thumb-20.jpg",
     "url": "detail-03.html",
-    "address": "714 Fairview Place, Allentown",
+    "address": "Наманган шаҳар, Оби ҳаёт МФЙ",
     "area": 210,
     "bedrooms": 3,
     "bathrooms": 2,
     "rooms": 3,
-    "latitude": "40.77288984931648",
-    "longitude": "-73.39745441149904"
+    "latitude": "41.000959",
+    "longitude": "71.676450"
   },
   {
     "id": 21,
