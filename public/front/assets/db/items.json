@@ -341,22 +341,22 @@
   },
   {
     "id": 23,
-    "title": "Wood House",
-    "price": 202000,
+    "title": "Ғишт кўприк",
+    "price": "XIX аср",
     "marker_image": "assets/img/img-item-thumb-23.jpg",
     "url": "detail-01.html",
-    "address": "Fayetteville, NC 28306",
+    "address": "Наманган шаҳар, Уйчи кўчаси",
     "area": 210,
     "bedrooms": 3,
     "bathrooms": 2,
     "rooms": 3,
-    "latitude": "40.74181261562849",
-    "longitude": "-73.562420994751"
+    "latitude": "41.004318",
+    "longitude": "71.682120"
   },
   {
     "id": 24,
     "title": "Modern Apartment",
-    "price": 79800,
+    "price": "XIX аср",
     "marker_image": "assets/img/img-item-thumb-24.jpg",
     "url": "detail-02.html",
     "address": "Aitkin, MN 56431",
@@ -369,17 +369,17 @@
   },
   {
     "id": 25,
-    "title": "New Town Complex",
-    "price": 356000,
+    "title": "Исфархон ота қабрлари",
+    "price": "Аниқ эмас",
     "marker_image": "assets/img/img-item-thumb-25.jpg",
     "url": "detail-01.html",
-    "address": "Los Alamos, NM 87544",
+    "address": "Наманган шаҳар, Навоий кўчаси",
     "area": 740,
     "bedrooms": 3,
     "bathrooms": 2,
     "rooms": 12,
-    "latitude": "40.6857328526672",
-    "longitude": "-73.51675906848146"
+    "latitude": "40.993437",
+    "longitude": "71.670667"
   },
 
 
