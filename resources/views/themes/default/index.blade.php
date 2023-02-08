@@ -636,7 +636,7 @@
         <footer id="ts-footer">
             <!--MAIN FOOTER CONTENT
             =============================================================================================================-->
-            <section id="ts-footer-main">
+            <section id="ts-footer-main" style="display: none">
                 <div class="container">
                     <div class="row">
                         <!--Brand and description-->
