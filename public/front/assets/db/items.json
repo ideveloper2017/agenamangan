@@ -355,17 +355,17 @@
   },
   {
     "id": 24,
-    "title": "Modern Apartment",
-    "price": "XIX аср",
+    "title": "Мустақиллик майдонидаги стелла",
+    "price": "2006 йил",
     "marker_image": "assets/img/img-item-thumb-24.jpg",
     "url": "detail-02.html",
-    "address": "Aitkin, MN 56431",
+    "address": "Наманган шаҳар, “Шарқ тонги” МФЙ, “Истиқлол” кўчаси Мустақиллик майдони",
     "area": 210,
     "bedrooms": 3,
     "bathrooms": 2,
     "rooms": 3,
-    "latitude": "40.75234669471232",
-    "longitude": "-73.50594440173342"
+    "latitude": "40.999711",
+    "longitude": "71.672603"
   },
   {
     "id": 25,
