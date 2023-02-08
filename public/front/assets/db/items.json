@@ -327,17 +327,17 @@
   },
   {
     "id": 22,
-    "title": "Grocery Store",
-    "price": 183000,
+    "title": "Вилоят маданият саройи",
+    "price": "1965 йил",
     "marker_image": "assets/img/img-item-thumb-22.jpg",
     "url": "detail-03.html",
-    "address": "Hanover, MD 21076",
+    "address": "Наманган шаҳар, Исфархон МФЙ, Навоий кўчаси 15 уй",
     "area": 210,
     "bedrooms": 3,
     "bathrooms": 2,
     "rooms": 3,
-    "latitude": "40.72321134118185",
-    "longitude": "-73.64447513293459"
+    "latitude": "40.998499",
+    "longitude": "71.675220"
   },
   {
     "id": 23,
