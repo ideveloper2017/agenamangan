@@ -313,17 +313,17 @@
   },
   {
     "id": 21,
-    "title": "Great Stone Residence",
-    "price": 800000,
+    "title": "Бўстон бува мақбараси",
+    "price": "Аниқ эмас",
     "marker_image": "assets/img/img-item-thumb-21.jpg",
     "url": "detail-03.html",
-    "address": "Philadelphia, PA 19108",
+    "address": "Наманган шаҳар, Зарбдор  МФЙ",
     "area": 800,
     "bedrooms": 3,
     "bathrooms": 2,
     "rooms": 8,
-    "latitude": "40.706817097528884",
-    "longitude": "-73.58370700549318"
+    "latitude": "40.978439",
+    "longitude": "71.702628"
   },
   {
     "id": 22,
