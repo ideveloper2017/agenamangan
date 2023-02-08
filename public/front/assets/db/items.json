@@ -285,17 +285,17 @@
   },
   {
     "id": 19,
-    "title": "House in the Forest",
+    "title": "1-сонли ўрта мактаб биноси",
     "price": 249000,
     "marker_image": "assets/img/img-item-thumb-19.jpg",
     "url": "detail-01.html",
-    "address": "393 Hooper Street, Rote",
+    "address": "Наманган шахар Обихаёт МФЙ Сиргали кучаси 1-уй",
     "area": 150,
     "bedrooms": 1,
     "bathrooms": 1,
     "rooms": 3,
-    "latitude": "40.71670617207652",
-    "longitude": "-73.51229587268068"
+    "latitude": "41.002798",
+    "longitude": "71.667470"
   },
   {
     "id": 20,
