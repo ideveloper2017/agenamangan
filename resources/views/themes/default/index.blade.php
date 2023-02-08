@@ -50,7 +50,7 @@
 
             <!--PRIMARY NAVIGATION
             =============================================================================================================-->
-            <nav id="ts-primary-navigation" class="navbar navbar-expand-md navbar-light">
+            <nav id="ts-primary-navigation" class="navbar navbar-expand-md navbar-light" style="display:none">
                 <div class="container">
 
                     <!--Brand Logo-->
