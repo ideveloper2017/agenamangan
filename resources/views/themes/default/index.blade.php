@@ -1,11 +1,7 @@
 @extends('themes.default.layouts.default')
 @section('content')
     <div class="ts-page-wrapper ts-homepage" id="page-top">
-
-        <!--*********************************************************************************************************-->
-        <!--HEADER **************************************************************************************************-->
-        <!--*********************************************************************************************************-->
-        <header id="ts-header" class="fixed-top">
+        <header id="ts-header" class="fixed-top" style="display:none">
 
             <!-- SECONDARY NAVIGATION
             =============================================================================================================-->
@@ -606,26 +602,12 @@
                 </div>
                 <!--end container-->
             </nav>
-            <!--end #ts-primary-navigation.navbar-->
-
         </header>
-        <!--end Header-->
 
-        <!-- HERO MAP
-        =================================================================================================================-->
         <section id="ts-hero" class=" mb-0">
-
             <!--Fullscreen mode-->
             <div class="ts-full-screen ts-has-horizontal-results w-1001 d-flex1 flex-column1">
-
-                <!-- MAP
-                =========================================================================================================-->
                 <div class="ts-map ts-shadow__sm">
-
-                    <!-- FORM
-                    =====================================================================================================-->
-
-                    <!--end ts-form__map-search-->
                     <div id="ts-map-hero" class="h-100 ts-z-index__1"
                          data-ts-map-leaflet-provider="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png"
                          data-ts-map-leaflet-attribution="&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> &copy; <a href='http://cartodb.com/attributions'>CartoDB</a>"
