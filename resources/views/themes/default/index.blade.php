@@ -1,7 +1,7 @@
 @extends('themes.default.layouts.default')
 @section('content')
     <div class="ts-page-wrapper ts-homepage" id="page-top">
-        <header id="ts-header" class="fixed-top" style="display:none">
+        <header id="ts-header" class="fixed-top">
 
             <!-- SECONDARY NAVIGATION
             =============================================================================================================-->
