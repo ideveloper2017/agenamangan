@@ -257,17 +257,17 @@
   },
   {
     "id": 17,
-    "title": "Spacey Apartment In Town Center",
-    "price": 153000,
+    "title": "Тепақўрғон масжиди (Умарбой хожи жомеъ масжиди)",
+    "price": "1890 йил",
     "marker_image": "assets/img/img-item-thumb-17.jpg",
     "url": "detail-02.html",
-    "address": "569 Harrison Place, Lafferty",
+    "address": "Наманган тумани, Тепақўрғон МФЙ, Бозорбоши кўчаси",
     "area": 210,
     "bedrooms": 3,
     "bathrooms": 2,
     "rooms": 3,
-    "latitude": "40.70707735514919",
-    "longitude": "-73.54302325915529"
+    "latitude": "40.901671",
+    "longitude": "71.564026"
   },
   {
     "id": 18,
