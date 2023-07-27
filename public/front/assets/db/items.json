@@ -572,5 +572,33 @@
         "rooms": 12,
         "latitude": "40.56374307",
         "longitude": "70.46002880"
+    },{
+        "id": 35,
+        "title": "“Aрашан булоқ ”\n(Қайнар булоқ) зиёратгоҳи\n",
+        "price": "1725-1750 йиллар",
+        "url": "detail-01.html",
+        "address": "Поп тумани,\nЮқори Чодак МФЙ\n",
+        "category": 1,
+        "marker_image": "/front/assets/img/arashanbuloq.png",
+        "area": 740,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "rooms": 12,
+        "latitude": "41.16400000",
+        "longitude": "70.31100000"
+    },{
+        "id": 36,
+        "title": "“Mавлоно Лутфиллоҳ” мақбараси",
+        "price": "1725-1750 йиллар",
+        "url": "detail-01.html",
+        "address": "Чуст шаҳар Мавлоно Лутфуллоҳ номли маданият ва истироҳат боғи",
+        "category": 1,
+        "marker_image": "/front/assets/img/mavlonolutfilloh.png",
+        "area": 740,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "rooms": 12,
+        "latitude": "41.00013414",
+        "longitude": "71.14030237"
     }
 ]
