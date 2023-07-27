@@ -612,7 +612,7 @@
                          data-ts-map-leaflet-provider="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png"
                          data-ts-map-leaflet-attribution="&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> &copy; <a href='http://cartodb.com/attributions'>CartoDB</a>"
                          data-ts-map-zoom-position="bottomright"
-                         data-ts-map-scroll-wheel="1"
+                         data-ts-map-scroll-wheel="2"
                          data-ts-map-zoom="10"
                          data-ts-map-center-latitude="41.1145"
                          data-ts-map-center-longitude="71.4468"
