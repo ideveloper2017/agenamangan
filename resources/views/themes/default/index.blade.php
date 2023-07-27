@@ -65,9 +65,6 @@
 
                     <!--Collapsing Navigation-->
                     <div class="collapse navbar-collapse" id="navbarPrimary">
-
-                        <!--LEFT NAVIGATION MAIN LEVEL
-                        =================================================================================================-->
                         <ul class="navbar-nav">
 
                             <!--HOME (Main level)
