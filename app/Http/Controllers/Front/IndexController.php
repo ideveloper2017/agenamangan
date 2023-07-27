@@ -12,4 +12,8 @@ class IndexController extends Controller
 
         return view('themes.default.index');
     }
+
+    public function about_us(){
+        return view('themes.default.index');
+    }
 }

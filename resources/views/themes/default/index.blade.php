@@ -67,7 +67,7 @@
                     <div class="collapse navbar-collapse" id="navbarPrimary">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="about-us.html">Loyiha haqida</a>
+                                <a class="nav-link" href="{{ route('about_us') }}">Loyiha haqida</a>
                             </li>
                             <!--end ABOUT US nav-item-->
 
