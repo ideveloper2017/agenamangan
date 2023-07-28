@@ -699,5 +699,19 @@
         "rooms": 12,
         "latitude": "41.05307439",
         "longitude": "72.03234205"
+    },{
+        "id": 42,
+        "title": "Балиқли кўл зиёратгоҳи",
+        "price": "Аниқ эмас",
+        "url": "detail-01.html",
+        "address": "Чортоқ тумани Боғистон МФЙ \n Балиқли кўл кўчаси\n",
+        "category": 1,
+        "marker_image": "/front/assets/img/baliq_kul.png",
+        "area": 740,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "rooms": 12,
+        "latitude": "41.19254181",
+        "longitude": "71.50136071"
     }
 ]
