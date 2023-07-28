@@ -1,243 +1,34 @@
 @extends('themes.default.layouts.default')
 @section('content')
-    <div class="ts-page-wrapper ts-homepage" id="page-top">
-        <header id="ts-header" class="fixed-top">
 
-            <!-- SECONDARY NAVIGATION
-            =============================================================================================================-->
-            <nav id="ts-secondary-navigation" class="navbar p-0">
-                <div class="container justify-content-end justify-content-sm-between">
-
-
-                    <div class="navbar-nav d-none d-sm-block" style="diplay:none;">
-                        <!--Phone-->
-                        <span class="mr-4">
-                            <i class="fa fa-phone-square mr-1"></i>
-                            +1 123 456 789
-                        </span>
-                        <!--Email-->
-                        <a href="#">
-                            <i class="fa fa-envelope mr-1"></i>
-                            hello@example.com
-                        </a>
-                    </div>
-
-                    <!--Right Side-->
-                    <div class="navbar-nav flex-row">
-
-                        <!--Search Input-->
-                        <input type="text" class="form-control p-2 border-left bg-transparent w-auto" placeholder="Search">
-
-                        <!--Currency Select-->
-                        <select class="custom-select bg-transparent ts-text-small border-left" id="currency" name="currency"  style="display:none">
-                            <option value="1">GBP</option>
-                            <option value="2">USD</option>
-                            <option value="3">EUR</option>
-                        </select>
-
-                        <!--Language Select-->
-                        <select class="custom-select bg-transparent ts-text-small border-left border-right" id="language" name="language"  style="display:none">
-                            <option value="1">EN</option>
-                            <option value="2">FR</option>
-                            <option value="3">DE</option>
-                        </select>
-
-                    </div>
-                    <!--end navbar-nav-->
-                </div>
-                <!--end container-->
-            </nav>
-
-            <!--PRIMARY NAVIGATION
-            =============================================================================================================-->
-            <nav id="ts-primary-navigation" class="navbar navbar-expand-md navbar-light">
-                <div class="container">
-
-                    <!--Brand Logo-->
-{{--                    <a class="navbar-brand" href="index-map-leaflet-fullscreen.html">--}}
-{{--                        <img src="assets/img/logo.png" alt="">--}}
-{{--                    </a>--}}
-
-                    <!--Responsive Collapse Button-->
-{{--                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrimary" aria-controls="navbarPrimary" aria-expanded="false" aria-label="Toggle navigation">--}}
-{{--                        <span class="navbar-toggler-icon"></span>--}}
-{{--                    </button>--}}
-
-                    <!--Collapsing Navigation-->
-                    <div class="collapse navbar-collapse" id="navbarPrimary">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('about_us') }}">Loyiha haqida</a>
-                            </li>
-                            <!--end ABOUT US nav-item-->
-
-                            <!--CONTACT (Main level)
-                            =============================================================================================-->
-                            <li class="nav-item">
-                                <a class="nav-link mr-2" href="/">Aloqa</a>
-                            </li>
-                            <!--end CONTACT nav-item-->
-
-                        </ul>
-                        <!--end Left navigation main level-->
-
-                        <!--RIGHT NAVIGATION MAIN LEVEL
-                        =================================================================================================-->
-                        <ul class="navbar-nav ml-auto" style="display:none">
-
-                            <!--LOGIN (Main level)
-                            =============================================================================================-->
-                            <li class="nav-item">
-                                <a class="nav-link" href="login.html">Login</a>
-                            </li>
-
-                            <!--REGISTER (Main level)
-                            =============================================================================================-->
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="register.html">Register</a>
-                            </li>
-
-                            <!--SUBMIT (Main level)
-                            =============================================================================================-->
-                            <li class="nav-item">
-                                <a class="btn btn-outline-primary btn-sm m-1 px-3" href="submit.html">
-                                    <i class="fa fa-plus small mr-2"></i>
-                                    Add Property
-                                </a>
-                            </li>
-
-                        </ul>
-                        <!--end Right navigation-->
-
-                    </div>
-                    <!--end navbar-collapse-->
-                </div>
-                <!--end container-->
-            </nav>
-        </header>
-
-        <section id="ts-hero" class=" mb-0">
-            <!--Fullscreen mode-->
-            <div class="ts-full-screen ts-has-horizontal-results w-1001 d-flex1 flex-column1">
-                <div class="ts-map ts-shadow__sm">
-                    <div id="ts-map-hero" class="h-100 ts-z-index__1"
-                         data-ts-map-leaflet-provider="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png"
-                         data-ts-map-leaflet-attribution="&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> &copy; <a href='http://cartodb.com/attributions'>CartoDB</a>"
-                         data-ts-map-zoom-position="bottomright"
-                         data-ts-map-scroll-wheel="2"
-                         data-ts-map-zoom="10"
-                         data-ts-map-center-latitude="41.1145"
-                         data-ts-map-center-longitude="71.4468"
-                         data-ts-locale="uz-UZ"
-                         data-ts-currency="USD"
-                         data-ts-unit="m<sup>2</sup>"
-                         data-ts-display-additional-info="area_Area;bedrooms_Bedrooms;bathrooms_Bathrooms">
-                    </div>
-
+    <section id="ts-hero" class=" mb-0">
+        <!--Fullscreen mode-->
+        <div class="ts-full-screen ts-has-horizontal-results w-1001 d-flex1 flex-column1">
+            <div class="ts-map ts-shadow__sm">
+                <div id="ts-map-hero" class="h-100 ts-z-index__1"
+                     data-ts-map-leaflet-provider="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png"
+                     data-ts-map-leaflet-attribution="&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> &copy; <a href='http://cartodb.com/attributions'>CartoDB</a>"
+                     data-ts-map-zoom-position="bottomright"
+                     data-ts-map-scroll-wheel="2"
+                     data-ts-map-zoom="10"
+                     data-ts-map-center-latitude="41.1145"
+                     data-ts-map-center-longitude="71.4468"
+                     data-ts-locale="uz-UZ"
+                     data-ts-currency="USD"
+                     data-ts-unit="m<sup>2</sup>"
+                     data-ts-display-additional-info="area_Area;bedrooms_Bedrooms;bathrooms_Bathrooms">
                 </div>
 
-                <!-- RESULTS
-                =========================================================================================================-->
-                <div id="ts-results" class="ts-results__horizontal scrollbar-inner dragscroll">
-                    <div class="ts-results-wrapper"></div>
-                </div>
             </div>
-            <!--end full-screen-->
-        </section>
-       <!--end ts-hero-->
-        <footer id="ts-footer" style="display: none">
-            <!--MAIN FOOTER CONTENT
-            =============================================================================================================-->
-            <section id="ts-footer-main" >
-                <div class="container">
-                    <div class="row">
-                        <!--Brand and description-->
-                        <div class="col-md-6">
-                            <a href="#" class="brand">
-                                <img src="assets/img/logo.png" alt="">
-                            </a>
-                            <p class="mb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat tempor sapien.
-                                In lobortis posuere tincidunt. Curabitur malesuada tempus ligula nec maximus. Nam tortor
-                                arcu,
-                                tincidunt quis molestie non, sagittis dignissim ligula. Fusce est ipsum, pharetra in felis
-                                ac,
-                                lobortis volutpat diam.
-                            </p>
-                            <a href="#" class="btn btn-outline-dark mb-4">Contact Us</a>
-                        </div>
 
-                        <!--Navigation-->
-                        <div class="col-md-2">
-                            <h4>Navigation</h4>
-                            <nav class="nav flex-row flex-md-column mb-4">
-                                <a href="#" class="nav-link">Home</a>
-                                <a href="#" class="nav-link">Listing</a>
-                                <a href="#" class="nav-link">About Us</a>
-                                <a href="#" class="nav-link">Sign In</a>
-                                <a href="#" class="nav-link">Register</a>
-                                <a href="#" class="nav-link">Submit Property</a>
-                            </nav>
-                        </div>
+            <!-- RESULTS
+            =========================================================================================================-->
+            <div id="ts-results" class="ts-results__horizontal scrollbar-inner dragscroll">
+                <div class="ts-results-wrapper"></div>
+            </div>
+        </div>
+        <!--end full-screen-->
+    </section>
 
-                        <!--Contact Info-->
-                        <div class="col-md-4">
-                            <h4>Contact</h4>
-                            <address class="ts-text-color-light">
-                                2590 Rocky Road
-                                <br>
-                                Philadelphia, PA 19108
-                                <br>
-                                <strong>Email: </strong>
-                                <a href="#" class="btn-link">office@example.com</a>
-                                <br>
-                                <strong>Phone:</strong>
-                                +1 215-606-0391
-                                <br>
-                                <strong>Skype: </strong>
-                                real.estate1
-                            </address>
-                        </div>
-
-                    </div>
-                    <!--end row-->
-                </div>
-                <!--end container-->
-            </section>
-            <!--end ts-footer-main-->
-
-            <!--SECONDARY FOOTER CONTENT
-            =============================================================================================================-->
-            <section id="ts-footer-secondary">
-                <div class="container">
-
-                    <!--Copyright-->
-                    <div class="ts-copyright">(C) 2018 ThemeStarz, All rights reserved</div>
-
-                    <!--Social Icons-->
-                    <div class="ts-footer-nav">
-                        <nav class="nav">
-                            <a href="#" class="nav-link">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="#" class="nav-link">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="nav-link">
-                                <i class="fab fa-pinterest-p"></i>
-                            </a>
-                            <a href="#" class="nav-link">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </nav>
-                    </div>
-                    <!--end ts-footer-nav-->
-                </div>
-                <!--end container-->
-            </section>
-            <!--end ts-footer-secondary-->
-        </footer>
-        <!--end #ts-footer-->
-    </div>
 @endsection
 
