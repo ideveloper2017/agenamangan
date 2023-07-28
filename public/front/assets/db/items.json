@@ -54,11 +54,11 @@
     "title": "Биби Наима она мақбараси",
     "price": "2019 йилда қайта қурилди",
     "category": "",
-    "marker_image": "/assets/img/img-item-thumb-04.jpg",
+    "marker_image": "/assets/img/bibi_naimaona.png",
     "url": "detail-01.html",
     "address": "Чортоқ тумани Боғистон МФЙ",
-    "latitude": "41.350701",
-    "longitude": "71.811477",
+    "latitude": "41.18535741",
+    "longitude": "71.49321194",
     "area": 288,
     "bedrooms": 2,
     "bathrooms": 1,
@@ -713,5 +713,19 @@
         "rooms": 12,
         "latitude": "41.19254181",
         "longitude": "71.50136071"
+    },{
+        "id": 43,
+        "title": "Хожа Абдураҳмон ибн Авф зиёратгоҳи",
+        "price": "Аниқ эмас",
+        "url": "detail-01.html",
+        "address": "Чуст тумани,\n  Тошқўрғон  МФЙ  \nОйбек кўчаси\n",
+        "category": 1,
+        "marker_image": "/front/assets/img/xuja_abdurahmon.jpg",
+        "area": 740,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "rooms": 12,
+        "latitude": "41.01177000",
+        "longitude": "71.09173300"
     }
 ]
