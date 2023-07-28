@@ -657,5 +657,33 @@
         "rooms": 12,
         "latitude": "41.15143332",
         "longitude": "71.32501159"
+    },{
+        "id": 41,
+        "title": "Қиз мозор мақбараси",
+        "price": "Аниқ эмас",
+        "url": "detail-01.html",
+        "address": "Тўрақўрғон тумани\nШовон МФЙ  Парасмон кўчаси\n",
+        "category": 1,
+        "marker_image": "/front/assets/img/qizmozor.png",
+        "area": 740,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "rooms": 12,
+        "latitude": "40.54252808",
+        "longitude": "71.31251314"
+    },{
+        "id": 42,
+        "title": "“Фаласбон бува” мақбараси",
+        "price": "Аниқ эмас",
+        "url": "detail-01.html",
+        "address": "Тўрақўрғон туман Сайрам қишлоғи, Эски Наманган кўчаси",
+        "category": 1,
+        "marker_image": "/front/assets/img/falsonbuva.png",
+        "area": 740,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "rooms": 12,
+        "latitude": "41.00163473",
+        "longitude": "71.31522157"
     }
 ]
