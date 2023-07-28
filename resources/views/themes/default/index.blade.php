@@ -9,7 +9,7 @@
                 <div class="container justify-content-end justify-content-sm-between">
 
                     <!--Left Side-->
-                    <div class="navbar-nav d-none d-sm-block">
+                    <div class="navbar-nav d-none d-sm-block" style="diplay:none;">
                         <!--Phone-->
                         <span class="mr-4">
                             <i class="fa fa-phone-square mr-1"></i>
