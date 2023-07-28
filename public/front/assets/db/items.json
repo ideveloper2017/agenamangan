@@ -600,5 +600,62 @@
         "rooms": 12,
         "latitude": "41.00013414",
         "longitude": "71.14030237"
+    },{
+        "id": 37,
+        "title": "“Баховуддин Балагардон” зиёратгоҳи",
+        "price": "1725-1750 йиллар",
+        "url": "detail-01.html",
+        "address": "Чуст тумани  Камарсада МФЙ, \n  Ипак йўли кўчаси, 2- уй\n",
+        "category": 1,
+        "marker_image": "/front/assets/img/bahoviddin.png",
+        "area": 740,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "rooms": 12,
+        "latitude": "40.59413694",
+        "longitude": "71.13471471"
+    },{
+        "id": 38,
+        "title": "“Axтом саҳоба” зиёратгоҳи",
+        "price": "1725-1750 йиллар",
+        "url": "detail-01.html",
+        "address": "Янгиқўрғон тумани,\n Оқтом МФЙ\n",
+        "category": 1,
+        "marker_image": "/front/assets/img/axtom_saxoba.png",
+        "area": 740,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "rooms": 12,
+        "latitude": "41.29350588",
+        "longitude": "71.40209134"
+    }
+,{
+        "id": 39,
+        "title": "“Бобо Яхсўз” зиёратгоҳи",
+        "price": "1725-1750 йиллар",
+        "url": "detail-01.html",
+        "address": "Янгиқўрғон тумани, \nНанай МФЙ\n",
+        "category": 1,
+        "marker_image": "/front/assets/img/boboyaxsuz.png",
+        "area": 740,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "rooms": 12,
+        "latitude": "41.31189721",
+        "longitude": "71.42052915"
+    },{
+        "id": 40,
+        "title": "“Чинор бобо” зиёратгоҳи",
+        "price": "",
+        "url": "detail-01.html",
+        "address": "Косонсой туман маданият ва истироҳат боғи худудида",
+        "category": 1,
+        "marker_image": "/front/assets/img/chinorbobo.png",
+        "area": 740,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "rooms": 12,
+        "latitude": "41.15143332",
+        "longitude": "71.32501159"
     }
 ]
