@@ -74,7 +74,7 @@
                             <!--CONTACT (Main level)
                             =============================================================================================-->
                             <li class="nav-item">
-                                <a class="nav-link mr-2" href="contact.html">Contact</a>
+                                <a class="nav-link mr-2" href="/">Aloqa</a>
                             </li>
                             <!--end CONTACT nav-item-->
 
