@@ -685,5 +685,19 @@
         "rooms": 12,
         "latitude": "41.00163473",
         "longitude": "71.31522157"
+    },{
+        "id": 42,
+        "title": "“Тирик мозор” зиёратгоҳи",
+        "price": "Аниқ эмас",
+        "url": "detail-01.html",
+        "address": "Учқўрғон тумани \nЧек МФЙ\n",
+        "category": 1,
+        "marker_image": "/front/assets/img/tirikmozor.png",
+        "area": 740,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "rooms": 12,
+        "latitude": "41.05307439",
+        "longitude": "72.03234205"
     }
 ]
