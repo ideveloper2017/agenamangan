@@ -162,7 +162,7 @@
     "title": "Биби Мушкулкушод мақбараси",
     "status": 2,
     "price": "Аниқ эмас",
-    "marker_image": "assets/img/img-item-thumb-10.jpg",
+    "marker_image": "/front/assets/img/bibi_mushkulkushod.png",
     "url": "detail-03.html",
     "address": "Наманган тумани, Бектемир  МФЙ, Бектемир кўчаси,94-уй",
     "latitude": "40.922597",
