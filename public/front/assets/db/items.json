@@ -727,5 +727,19 @@
         "rooms": 12,
         "latitude": "41.01177000",
         "longitude": "71.09173300"
+    },{
+        "id": 43,
+        "title": "Тешиктош  (Будда) ёдгорлиги ",
+        "price": "Аниқ эмас",
+        "url": "detail-01.html",
+        "address": "Чуст тумани Қорақўрғон МФЙ",
+        "category": 1,
+        "marker_image": "/front/assets/img/budda_teshik_tosh.png",
+        "area": 740,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "rooms": 12,
+        "latitude": "41.09379800",
+        "longitude": "71.14405800"
     }
 ]
