@@ -8,7 +8,7 @@
             <nav id="ts-secondary-navigation" class="navbar p-0">
                 <div class="container justify-content-end justify-content-sm-between">
 
-                    <!--Left Side-->
+
                     <div class="navbar-nav d-none d-sm-block" style="diplay:none;">
                         <!--Phone-->
                         <span class="mr-4">
