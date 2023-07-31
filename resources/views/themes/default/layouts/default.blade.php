@@ -3,9 +3,7 @@
 <div class="ts-page-wrapper ts-homepage" id="page-top">
     @include('themes.default.partials.header')
 
-    <section id="ts-hero" class=" mb-0">
     @yield('content')
-    </section>
     <footer id="ts-footer" style="display: none">
         <!--MAIN FOOTER CONTENT
         =============================================================================================================-->
