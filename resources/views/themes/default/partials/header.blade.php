@@ -6,7 +6,7 @@
         <div class="container justify-content-end justify-content-sm-between">
 
 
-            <div class="navbar-nav d-none d-sm-block" style="diplay:none;">
+            <div class="navbar-nav d-none d-sm-block" style="display:none;">
                 <!--Phone-->
                 <span class="mr-4">
                             <i class="fa fa-phone-square mr-1"></i>
@@ -64,6 +64,9 @@
             <div class="collapse navbar-collapse" id="navbarPrimary">
                 <ul class="navbar-nav">
                     <li class="nav-item">
+                        <a class="nav-link" href="/">Bosh sahifa</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{{ route('about_us') }}">Loyiha haqida</a>
                     </li>
                     <!--end ABOUT US nav-item-->
@@ -71,7 +74,7 @@
                     <!--CONTACT (Main level)
                     =============================================================================================-->
                     <li class="nav-item">
-                        <a class="nav-link mr-2" href="/">Aloqa</a>
+                        <a class="nav-link mr-2" href="{{ route('feedback') }}">Aloqa</a>
                     </li>
                     <!--end CONTACT nav-item-->
 

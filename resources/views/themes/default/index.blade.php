@@ -1,7 +1,6 @@
 @extends('themes.default.layouts.default')
 @section('content')
 
-    <section id="ts-hero" class=" mb-0">
         <!--Fullscreen mode-->
         <div class="ts-full-screen ts-has-horizontal-results w-1001 d-flex1 flex-column1">
             <div class="ts-map ts-shadow__sm">
